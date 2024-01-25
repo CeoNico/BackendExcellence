@@ -7,10 +7,10 @@ import Card from "./Card";
 
 const Services = () => {
   return (
-    <div className="h-screen w-full lg:h-fit p-16">
+    <div className="h-fit w-full p-16">
       <h2 className="text-center text-2xl font-bold p-4">Nosotros</h2>
       <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-3">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center hover:scale-110 transition duration-500 ease-in-out">
           <Card imgSrc={webdevImg}>
             <h2 className="font-bold text-2xl">Desarollo Principal</h2>
             <p>
@@ -21,7 +21,7 @@ const Services = () => {
             </p>
           </Card>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center hover:scale-110 transition duration-500 ease-in-out">
           <Card imgSrc={seoImg}>
             <h2 className="font-bold text-2xl">SEO Optimizacion</h2>
             <p>
@@ -31,7 +31,7 @@ const Services = () => {
             </p>
           </Card>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center hover:scale-110 transition duration-500 ease-in-out">
           <Card imgSrc={responsiveImg}>
             <h2 className="font-bold text-2xl">Sitio Responsive</h2>
             <p>

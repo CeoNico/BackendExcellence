@@ -26,7 +26,7 @@ const Hero = () => {
           en la web. ¡Bienvenido a la excelencia digital!
         </p>
         <div className="w-full flex items-center justify-center mt-2">
-          <Button href="/">Comenzar Ahora</Button>
+          <Button href="https://wa.link/vjs9se">Comenzar Ahora</Button>
         </div>
       </div>
       <div className="hidden lg:flex flex-col mt-32 items-center mx-4">

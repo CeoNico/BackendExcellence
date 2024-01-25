@@ -37,7 +37,6 @@ const Tech = () => {
             <div className="flex items-center justify-center"><DiNodejsSmall size={100} /></div>
             <div className="flex items-center justify-center"><DiPostgresql size={100} /></div>
             <div className="flex items-center justify-center"><DiReact size={100} /></div>
-            <div className="flex items-center justify-center"><Image src={nextjsIcon} height={90} /></div>
         </div>
     </div>
   );

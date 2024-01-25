@@ -11,7 +11,7 @@ const Services = () => {
       <h2 className="text-center text-2xl font-bold p-4">Nosotros</h2>
       <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-3">
         <div className="flex flex-col items-center hover:scale-110 transition duration-500 ease-in-out">
-          <Card imgSrc={webdevImg}>
+          <Card alt="Webdev Image" imgSrc={webdevImg}>
             <h2 className="font-bold text-2xl">Desarollo Principal</h2>
             <p>
               Nuestro desarollo principal cuenta con varias tecnicas para
@@ -22,7 +22,7 @@ const Services = () => {
           </Card>
         </div>
         <div className="flex flex-col items-center hover:scale-110 transition duration-500 ease-in-out">
-          <Card imgSrc={seoImg}>
+          <Card alt="SEO Image" imgSrc={seoImg}>
             <h2 className="font-bold text-2xl">SEO Optimizacion</h2>
             <p>
               Es clave que tu sitio web tenga un ranking de SEO alto. Lo que
@@ -32,7 +32,7 @@ const Services = () => {
           </Card>
         </div>
         <div className="flex flex-col items-center hover:scale-110 transition duration-500 ease-in-out">
-          <Card imgSrc={responsiveImg}>
+          <Card alt="Responsive Image" imgSrc={responsiveImg}>
             <h2 className="font-bold text-2xl">Sitio Responsive</h2>
             <p>
               Cuando desarollamos tu sitio web es importante para nosotros que

@@ -4,8 +4,6 @@ import { DiMongodb } from "react-icons/di";
 import { DiNodejsSmall  } from "react-icons/di";
 import { DiPostgresql } from "react-icons/di";
 import { DiReact } from "react-icons/di";
-import nextjsIcon from '../../../public/nextjs.png';
-import Image from "next/image";
 
 const Tech = () => {
   return (

@@ -5,7 +5,7 @@ import insightImg from "../../../public/insight.png";
 const Mission = () => {
   return (
     <div className="h-fit w-screen bg-gradient-to-r from-[#696eff] to-[#f8acff]">
-      <h2 className="text-center font-bold text-2xl p-2">Nuestra Misión</h2>
+      <h2 className="text-center font-bold text-2xl p-6">Nuestra Misión</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex items-center justify-center">
           <p className="font-light text-lg p-4 lg:p-16 text-balance">

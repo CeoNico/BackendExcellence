@@ -8,7 +8,7 @@ import { DiReact } from "react-icons/di";
 const Tech = () => {
   return (
     <div className="h-fit w-full pb-10">
-      <h2 className="text-2xl font-bold text-center">Nuestra Tecnologia</h2>
+      <h2 className="text-2xl font-bold text-center p-6">Nuestra Tecnologia</h2>
         <div className="p-4">
           <p className="p-2 font-light text-lg lg:px-24">
             En una era definida por la rápida evolución tecnológica, nuestro
@@ -29,7 +29,7 @@ const Tech = () => {
             problemas, incluso bajo el tráfico más intenso.
           </p>
         </div>
-        <div className="grid grid-rows-2 grid-cols-3 lg:grid-rows-1 lg:grid-cols-6 lg:px-28 p-2 gap-2 items-center justify-center">
+        <div className="grid grid-rows-2 grid-cols-3 lg:grid-rows-1 lg:grid-cols-5 lg:px-28 p-2 gap-2 items-center justify-center">
             <div className="flex items-center justify-center"><DiJsBadge  size={100} /></div>
             <div className="flex items-center justify-center"><DiMongodb size={100} /> </div>
             <div className="flex items-center justify-center"><DiNodejsSmall size={100} /></div>
